@@ -27,11 +27,11 @@ rcsid[] = "$Id: l_sound_sdl.c,v 1.5 1997/02/03 22:45:10 b1 Exp $";
 #include <math.h>
 #include <unistd.h>
 
-#include "SDL.h"
-#include "SDL_audio.h"
-#include "SDL_mutex.h"
-#include "SDL_byteorder.h"
-#include "SDL_version.h"
+#include <SDL/SDL.h>
+#include <SDL/SDL_audio.h>
+#include <SDL/SDL_mutex.h>
+#include <SDL/SDL_byteorder.h>
+#include <SDL/SDL_version.h>
 
 #include "z_zone.h"
 
@@ -48,7 +48,7 @@ rcsid[] = "$Id: l_sound_sdl.c,v 1.5 1997/02/03 22:45:10 b1 Exp $";
 
 #include "d_main.h"
 
-#include "SDL_mixer.h"
+#include <SDL/SDL_mixer.h>
 #include "qmus2mid.h"
 
 /* FIXME: Make this file instance-specific */
